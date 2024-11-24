@@ -8,7 +8,7 @@ public class StringArrayFilter {
         int n = Integer.parseInt(scanner.nextLine());
         String[] inputArray = new String[n];
         scanner.nextLine();
-        
+
 
         for (int i = 0; i < n; i++) {
             System.out.println("Введите строку" + (i + 1) + ": ");
@@ -16,6 +16,7 @@ public class StringArrayFilter {
         }
         
         String[] outputArray = filterStrings(inputArray);
+        
 
         System.out.println("Результат");
         for (String s : outputArray){
